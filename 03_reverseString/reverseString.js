@@ -1,4 +1,7 @@
-const reverseString = function() {
+const reverseString = function (stng) {
+let text = "";
+let reverseText= stng.split("").reverse().join(""); 
+return reverseText; 
 
 };
 
